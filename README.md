@@ -1,7 +1,7 @@
 # epimat.github.io
 Epidemic Modeling Group at Tulane CCS
 
-[![](http://www2.tulane.edu/sse/ccs/images/header_1.png)]()
+[![](http://www2.tulane.edu/sse/ccs/images/header_1.png)](http://www2.tulane.edu/sse/ccs/index.cfm)
 
 ###### Modeling an epidemic enables
 * simulation of "What if" scenarios, -- _dealing with data_
