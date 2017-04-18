@@ -5,7 +5,7 @@
 
 #### You have interest in a phenomenon that exhibits order and chaos
 * Physics -- Fluids, Genetics
-* Human -- Economics, Social Networks, Voting Outcome
+* Human -- Economics, Social Networks
 * Both -- Ecology, Epidemiology
 
 #### You probably want to model it
@@ -24,7 +24,7 @@
 * cross-validate your model
   * 10-fold, n-fold, all subsets?
 * want parameters such that the model matches measurements
-  * bootstrap
+  * minimize residuals, bootstrap
 
 #### So that you can
 * simulate "What If" scenarios
@@ -34,3 +34,5 @@
 * analyze parameter sensitivity (UQ)
   * derivatives; necessarily a wide range?
 * helps build our intuition about the whole system -- [http://math.lanl.gov/~mac/papers/bio/HL03.pdf]()
+
+----
