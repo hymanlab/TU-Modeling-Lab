@@ -1,5 +1,6 @@
 
-* { font-family: 'Roboto', sans-serif; }
+* { font-family: 'Roboto', sans-serif }
+body { background-color: #EEEEEE; }
 div { padding: 0;  margin: 0; }
 
 #title {
@@ -27,10 +28,6 @@ div { padding: 0;  margin: 0; }
   float: left;
 }
 
-#main {
-  padding: 1em;
-}
-
 .clearfix {
   clear: both;
 }
@@ -50,4 +47,15 @@ div { padding: 0;  margin: 0; }
 img {
   display: block;
   margin: 0 auto;
+}
+
+.section, #main {
+  background-color: #FFFFFF;
+  border-radius: 1em;
+  margin: 1em;
+  padding: .5em;
+}
+
+.section h3 {
+  margin: .5em 0;
 }
