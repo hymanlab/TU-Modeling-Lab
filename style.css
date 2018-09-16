@@ -1,82 +1,13 @@
 /* Elements */
-* {
-  font-family: 'Roboto', sans-serif
-}
 
-body {
-  background-color: #EEEEEE;
-}
-
-div {
-  padding: 0;
-  margin: 0;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-}
 /* Classes */
-.col {
-  padding: .7em;
-  width: 45%;
-  float: left;
+.custom-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #e3f2fd;
+  height: 7vh;
+  min-height: 20px;
 }
-
-.clearfix {
-  clear: both;
-}
-
-.section, #main {
-  background-color: #FFFFFF;
-  border-radius: 1em;
-  margin: 1em;
-  padding: .5em;
-  padding-left: 1em;
-}
-
-.section h3 {
-  margin: .5em 0;
-}
-
 
 /* IDs */
-#title {
-  font-size: 150%;
-  padding: .5em;
-  float: left;
-  max-width: 60%;
-}
-
-#nav ul {
-  padding: 0;
-  margin: 0;
-  float: right;
-}
-
-#nav li {
-  list-style: none;
-  float: left;
-  margin: 1em;
-}
-
-
-
-#people {
-  float: right;
-  font-size: 110%;
-  padding-right: 1em;
-}
-
-#people li a {
-  text-decoration: none;
-}
-
-#people li {
-  list-style: none;
-  margin: .3em 0;
-}
-
-#bio {
-  overflow: scroll;
-}
