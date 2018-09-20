@@ -38,4 +38,10 @@ h1, h3 {
   max-width: 20em;
 }
 
+.people {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+
+}
+
 /* IDs */
