@@ -1,4 +1,13 @@
 /* Elements */
+body {
+  background-image: url("./images/background1.jpg");
+  background-color: white;
+}
+h1, h3 {
+  border-bottom: 2px solid #487C7F;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
 
 /* Classes */
 .custom-nav {
@@ -8,6 +17,25 @@
   background-color: #e3f2fd;
   height: 7vh;
   min-height: 20px;
+}
+
+.custom-container {
+  background-color: #DCFDFF;
+  border-left: solid 2vw rgba(72, 124, 127, 0.9);
+  border-right: solid 2vw rgba(72, 124, 127, 0.9);
+  min-height: 95vh;
+}
+.pic {
+  border: 0.3em solid rgba(72, 124, 127, 0.9);
+  border-radius: 1em;
+  height: 20em;
+  width: 20em;
+  display: block;
+  overflow: hidden;
+  box-shadow: 0.1em 0.1em #274345;
+}
+.large-img {
+  max-width: 20em;
 }
 
 /* IDs */
