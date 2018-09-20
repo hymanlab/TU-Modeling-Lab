@@ -41,7 +41,14 @@ h1, h3 {
 .people {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1.5em;
+}
 
+.small-line {
+  border-bottom: 1px solid #487C7F;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
 }
 
 /* IDs */
