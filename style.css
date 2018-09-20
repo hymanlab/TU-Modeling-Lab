@@ -40,7 +40,7 @@ h1, h3 {
 
 .people {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 30em));
   grid-column-gap: 1.5em;
   grid-row-gap: 1.5em;
 }
