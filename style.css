@@ -51,4 +51,12 @@ h1, h3 {
   padding-top: 0.5em;
 }
 
+/*Button Styling*/
+button {
+  border-radius: 50%;
+  border: 1px solid blue;
+  height: 5em;
+  width: 5em;
+}
+
 /* IDs */
