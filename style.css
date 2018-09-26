@@ -20,7 +20,7 @@ h1, h3 {
 }
 
 .custom-container {
-  background-color: #DCFDFF;
+  background-color: #FFFDFF;
   border-left: solid 2vw rgba(72, 124, 127, 0.9);
   border-right: solid 2vw rgba(72, 124, 127, 0.9);
   min-height: 95vh;
@@ -38,13 +38,6 @@ h1, h3 {
   max-width: 20em;
 }
 
-/*.people {
-  display: grid;
-  /*grid-template-columns: repeat(auto-fit, minmax(16em, 30em));*/
-  /*grid-template-columns: 1fr 4fr;
-  grid-column-gap: 1.5em;
-  grid-row-gap: 1.5em;
-}*/
 
 .small-line {
   border-bottom: 1px solid #487C7F;
