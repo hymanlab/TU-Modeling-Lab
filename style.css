@@ -55,9 +55,37 @@ h1, h3 {
 /*Button Styling*/
 button {
   border-radius: 50%;
-  border: 1px solid blue;
+  border: none;
   height: 5em;
   width: 5em;
+  margin: 1em 2em 0.5em 2em;
+}
+button:hover{
+  box-shadow: 0.1em 0.1em #1F3A52;
+}
+.google-scholar{
+  background-color: #5F78FF;
+}
+.google-scholar:hover{
+  background-color: #5FB4FF;
+}
+.material-icons{
+  font-size: 2.5em;
+}
+.button-container{
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+.button-label{
+  display:block;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+}
+.top{
+  display:block;
 }
 
 /* IDs */
