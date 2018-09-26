@@ -52,6 +52,11 @@ h1, h3 {
   padding-top: 0.5em;
 }
 
+.headshot{
+  height: 16em;
+  width: 16em;
+}
+
 /*Button Styling*/
 button {
   border-radius: 50%;
