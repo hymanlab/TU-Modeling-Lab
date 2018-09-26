@@ -1,0 +1,16 @@
+@media (max-width: 719px){
+  .people {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16em, 30em));
+    grid-column-gap: 1.5em;
+    grid-row-gap: 1.5em;
+  }
+}
+@media (min-width: 720px){
+  .people {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-column-gap: 1.5em;
+    grid-row-gap: 1.5em;
+  }
+}

@@ -38,13 +38,13 @@ h1, h3 {
   max-width: 20em;
 }
 
-.people {
+/*.people {
   display: grid;
   /*grid-template-columns: repeat(auto-fit, minmax(16em, 30em));*/
-  grid-template-columns: 1fr 4fr;
+  /*grid-template-columns: 1fr 4fr;
   grid-column-gap: 1.5em;
   grid-row-gap: 1.5em;
-}
+}*/
 
 .small-line {
   border-bottom: 1px solid #487C7F;
