@@ -75,10 +75,10 @@ button:hover{
 .tulane:hover{
   background-color: #04A164;
 }
-.LANL{
+.personal-page{
   background-color: #FF84A0;
 }
-.LANL:hover{
+.personal-page:hover{
   background-color: #E084A0;
 }
 .research-gate{
@@ -86,6 +86,12 @@ button:hover{
 }
 .research-gate:hover{
   background-color: #FF0016;
+}
+.linkedin{
+  background-color: #007AB3;
+}
+.linkedin:hover{
+  background-color: #00AEFF;
 }
 .material-icons{
   font-size: 36px;
