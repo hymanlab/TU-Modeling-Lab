@@ -1,70 +1,116 @@
-
-* { font-family: 'Roboto', sans-serif }
-body { background-color: #EEEEEE; }
-div { padding: 0;  margin: 0; }
-
-#title {
-  font-size: 150%;
-  padding: .5em;
-  float:left;
-  max-width: 60%;
+/* Elements */
+body {
+  background-image: url("./images/background1.jpg");
+  background-color: white;
+}
+h1, h3 {
+  border-bottom: 2px solid #487C7F;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
 }
 
-#nav ul {
-  padding: 0;
-  margin: 0;
-  float: right;
+/* Classes */
+.custom-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #e3f2fd;
+  height: 7vh;
+  min-height: 20px;
 }
 
-#nav li {
-  list-style: none;
-  float: left;
-  margin: 1em;
+.custom-container {
+  background-color: #FFFDFF;
+  border-left: solid 2vw rgba(72, 124, 127, 0.9);
+  border-right: solid 2vw rgba(72, 124, 127, 0.9);
+  min-height: 95vh;
 }
-
-.col {
-  padding: .7em;
-  width: 45%;
-  float: left;
-}
-
-.clearfix {
-  clear: both;
-}
-
-#people {
-  float: right;
-  font-size: 110%;
-  padding-right: 1em;
-}
-
-#people li a {
-  text-decoration: none;
-}
-
-#people li {
-  list-style: none;
-  margin: .3em 0;
-}
-
-
-#bio {
-  overflow: scroll;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-}
-
-.section, #main {
-  background-color: #FFFFFF;
+.pic {
+  border: 0.3em solid rgba(72, 124, 127, 0.9);
   border-radius: 1em;
-  margin: 1em;
-  padding: .5em;
-  padding-left: 1em;
+  height: 16em;
+  width: 16em;
+  display: block;
+  overflow: hidden;
+  box-shadow: 0.1em 0.1em #274345;
+}
+.large-img {
+  max-width: 20em;
 }
 
-.section h3 {
-  margin: .5em 0;
+
+.small-line {
+  border-bottom: 1px solid #487C7F;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
 }
+
+.headshot{
+  height: 16em;
+  width: 16em;
+}
+
+/*Button Styling*/
+button {
+  border-radius: 50%;
+  border: none;
+  height: 5em;
+  width: 5em;
+  margin: 1em 2em 0.5em 2em;
+}
+button:hover{
+  box-shadow: 0.1em 0.1em #1F3A52;
+  cursor: pointer;
+}
+.google-scholar{
+  background-color: #5F78FF;
+}
+.google-scholar:hover{
+  background-color: #5FB4FF;
+}
+
+.tulane{
+  background-color: #036E44;
+}
+.tulane:hover{
+  background-color: #04A164;
+}
+.personal-page{
+  background-color: #FF84A0;
+}
+.personal-page:hover{
+  background-color: #E084A0;
+}
+.research-gate{
+  background-color: #D90013;
+}
+.research-gate:hover{
+  background-color: #FF0016;
+}
+.linkedin{
+  background-color: #007AB3;
+}
+.linkedin:hover{
+  background-color: #00AEFF;
+}
+.material-icons{
+  font-size: 36px;
+}
+.button-container{
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+.button-label{
+  display:block;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+.top{
+  display:block;
+}
+
+/* IDs */
