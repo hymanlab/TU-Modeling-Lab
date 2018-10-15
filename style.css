@@ -49,16 +49,27 @@ h1, h3 {
   height: 16em;
   width: 16em;
 }
+/* Nav and Dropdown styling*/
+.dropdown-toggle{
+  padding: 0;
+}
+.dropdown-toggle:hover{
+  background-color: transparent;
+}
+
+.nav-item{
+  font-size: 0.9em;
+}
 
 /*Button Styling*/
-button {
+.custom-button {
   border-radius: 50%;
   border: none;
   height: 5em;
   width: 5em;
   margin: 1em 2em 0.5em 2em;
 }
-button:hover{
+.custom-button:hover{
   box-shadow: 0.1em 0.1em #1F3A52;
   cursor: pointer;
 }
