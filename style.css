@@ -52,6 +52,7 @@ h1, h3 {
 /* Nav and Dropdown styling*/
 .dropdown-toggle{
   padding: 0;
+  font-weight: normal;
 }
 .dropdown-toggle:hover{
   background-color: transparent;
@@ -59,6 +60,12 @@ h1, h3 {
 
 .nav-item{
   font-size: 0.9em;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.btn-group{
+  padding: 0rem 0.5rem 0rem 0.5rem;
 }
 
 /*Button Styling*/
@@ -125,3 +132,6 @@ a:hover{
 }
 
 /* IDs */
+#people-link{
+  font-weight: bold;
+}
