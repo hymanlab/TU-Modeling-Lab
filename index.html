@@ -16,7 +16,20 @@
     <!--stylesheets-->
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <!-- Search Enginge Optimization stuff-->
     <title>Hyman Lab</title>
+    <meta name="description" content="The Tulane Mathematical Modeling and
+    Analysis Lab is focused on constructing new models for complex systems,
+    analyzing the mathematical structure of these models, and quantifying the
+    uncertainty in how well a model approximates the original physical or
+    biological system.">
+
+    <meta name="keywords" content="Tulane, Mathematics, Modeling, Erin Stafford,
+    Emily Meyer, Rhea Kataria, Zhuolin Qu, Hugh Lu, Li Guan, Christian Geneus,
+    James Hyman, Mac Hyman, Harley Hanes, Tong Wu, Jaime Lopez, Lin Li, Zhe Qu,
+    Math-bio, Math Bio, Math, Biology">
+
+    <meta name="author" content="Garrett Van Beek">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -32,7 +45,26 @@
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="people.html">People and Publications</a>
+          <div class="btn-group" style="">
+            <button class="btn dropdown-toggle"
+            type="button" id="buttonMenu1" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+              People
+            </button>
+            <div class="dropdown-menu" aria-labelledby="buttonMenu1">
+              <!-- Alphabetical order by last name -->
+              <a class="dropdown-item" href="people.html" id="people-link">Full list</a>
+              <a class="dropdown-item" href="people.html#jessicaconrad">Jessica Conrad</a>
+              <a class="dropdown-item" href="people.html#harleyhanes">Harley Hanes</a>
+              <a class="dropdown-item" href="people.html#machyman">James Hyman</a>
+              <a class="dropdown-item" href="people.html#linli">Lin Li</a>
+              <a class="dropdown-item" href="people.html#youlu">You (Hugh) Lu</a>
+              <a class="dropdown-item" href="people.html#emilymeyer">Emily Meyer</a>
+              <a class="dropdown-item" href="people.html#zhuolinqu">Zhuolin Qu</a>
+              <a class="dropdown-item" href="people.html#zhequ">Zhe Qu</a>
+              <a class="dropdown-item" href="people.html#erinstafford">Erin Stafford</a>
+            </div>
+          </div>
         </li>
         <!--<li class="nav-item">
           <a class="nav-link" href="#">Former Publications</a>
@@ -60,9 +92,9 @@
     </p>
     <div class="row">
       <div class="col-sm">
-        <div class="pic">
+        <!--<div class="pic">
           <img src="images/social_network_soodeh.jpg" class="large-img">
-        </div>
+        </div>-->
         <h3>Modeling Biological Systems</h3>
           <ul>
             <li> Infectious Disease Transmission </li>
@@ -74,9 +106,9 @@
           </ul>
       </div>
       <div class="col-sm">
-        <div class="pic">
+        <!--<div class="pic">
           <img src="images/Uncertainty_train_wreck.jpg" class="large-img">
-        </div>
+        </div>-->
         <h3>Uncertainty Quantification</h3>
         <ul>
           <li> Multivariate Surrogate Models with Sparse Samples

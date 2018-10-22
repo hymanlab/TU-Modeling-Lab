@@ -15,7 +15,21 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="media_queries.css">
 
-    <title>People</title>
+    <!-- Search Enginge Optimization stuff-->
+    <title>Hyman Lab | People</title>
+    <meta name="description" content="The Tulane Mathematical Modeling and
+    Analysis Lab is focused on constructing new models for complex systems,
+    analyzing the mathematical structure of these models, and quantifying the
+    uncertainty in how well a model approximates the original physical or
+    biological system.">
+
+    <meta name="keywords" content="Tulane, Mathematics, Modeling, Erin Stafford,
+    Emily Meyer, Rhea Kataria, Zhuolin Qu, Hugh Lu, Li Guan, Christian Geneus,
+    James Hyman, Mac Hyman, Harley Hanes, Tong Wu, Jaime Lopez, Lin Li, Zhe Qu,
+    Math-bio, Math Bio, Math, Biology">
+
+    <meta name="author" content="Garrett Van Beek">
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -30,7 +44,26 @@
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="people.html">People and Publications</a>
+          <div class="btn-group" style="">
+            <button class="btn dropdown-toggle"
+            type="button" id="buttonMenu1" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+              People
+            </button>
+            <div class="dropdown-menu" aria-labelledby="buttonMenu1">
+              <!-- Alphabetical order by last name -->
+              <a class="dropdown-item" href="people.html" id="people-link">Full list</a>
+              <a class="dropdown-item" href="#jessicaconrad">Jessica Conrad</a>
+              <a class="dropdown-item" href="#harleyhanes">Harley Hanes</a>
+              <a class="dropdown-item" href="#machyman">James Hyman</a>
+              <a class="dropdown-item" href="#linli">Lin Li</a>
+              <a class="dropdown-item" href="#youlu">You (Hugh) Lu</a>
+              <a class="dropdown-item" href="#emilymeyer">Emily Meyer</a>
+              <a class="dropdown-item" href="#zhuolinqu">Zhuolin Qu</a>
+              <a class="dropdown-item" href="#zhequ">Zhe Qu</a>
+              <a class="dropdown-item" href="#erinstafford">Erin Stafford</a>
+            </div>
+          </div>
         </li>
         <!--<li class="nav-item">
           <a class="nav-link" href="#">Former Publications</a>
@@ -46,10 +79,11 @@
       <h1>People and Publications</h1>
     <div class="people">
         <div class="pic">
-          <img class="headshot" src="images/new_machyman.jpg" class="large-img">
+          <img class="headshot" src="images/new_machyman.jpg">
         </div>
 
       <div class="text-box">
+        <a id="machyman"></a>
         <h3>Mac Hyman </h3>
         <h4> Principal Investigator </h4>
         <p>
@@ -64,20 +98,20 @@
         <div>
           <div class="button-container">
             <a href="http://www2.tulane.edu/sse/math/faculty/mac-hyman.cfm" target="_blank">
-              <button class="tulane"><img src="icons/tulane logo.png"></img></button>
+              <button class="tulane custom-button"><img src="icons/tulane logo.png"></img></button>
               <label class="button-label">Tulane Page</label>
             </a>
           </div>
           <div class="button-container">
             <a href="https://www.researchgate.net/profile/James_Hyman" target="_blank">
-              <button class="research-gate"><img src="icons/microscope.png"></img></button>
+              <button class="research-gate custom-button"><img src="icons/microscope.png"></img></button>
               <label class="button-label">Research Gate</label>
             </a>
           </div>
           <!--<div class="button-container">
           <a href=# target="_blank">
 
-            <button class="google-scholar" href=#>
+            <button class="google-scholar custom-button" href=#>
               <i class="material-icons">school</i>
             </button><!--get google scholar link-->
             <!--<label class="button-label">Google Scholar</label>
@@ -85,7 +119,7 @@
         </div>-->
         <!--<div class="button-container">
           <a href="http://math.lanl.gov/%7Emac/" target="_blank"><!--dead link-->
-            <!--<button class="LANL"><img src="icons/atom.png"></img></button>
+            <!--<button class="LANL custom-button"><img src="icons/atom.png"></img></button>
             <label class="button-label">LANL Page</label>
           </a>
         </div>-->
@@ -95,11 +129,12 @@
 
 
     <div class="pic">
-        <img class="headshot" src="images/new_zhuolin.jpg" class="large-img">
+        <img class="headshot" src="images/new_zhuolin.jpg">
     </div>
     <!--</div>-->
     <!--Zhuolin Qu-->
     <div class="text-box">
+      <a id="zhuolinqu"></a>
       <h3>Zhuolin Qu</h3>
       <h4>Post-Doctoral Researcher</h4>
       <p>
@@ -113,34 +148,35 @@
       <div>
         <div class="button-container">
           <a href="https://zhuolinqu.github.io/" target="_blank">
-            <button class="personal-page"><i class="material-icons">perm_identity</i></button>
+            <button class="personal-page custom-button"><i class="material-icons">perm_identity</i></button>
             <label class="button-label">Personal Page</label>
           </a>
         </div>
         <div class="button-container">
           <a href="https://scholar.google.com/citations?hl=en&user=1_QPacMAAAAJ" target="_blank">
-            <button class="google-scholar"><i class="material-icons">school</i></button>
+            <button class="google-scholar custom-button"><i class="material-icons">school</i></button>
             <label class="button-label">Google Scholar</label>
           </a>
         </div>
         <div class="button-container">
           <a href="https://www.researchgate.net/profile/Zhuolin_Qu" target="_blank">
-            <button class="research-gate"><img src="icons/microscope.png"></img></button>
+            <button class="research-gate custom-button"><img src="icons/microscope.png"></img></button>
             <label class="button-label">Research Gate</label>
           </a>
         </div>
         <div class="button-container">
           <a href="https://www.linkedin.com/in/zhuolinqu/" target="_blank">
-            <button class="linkedin"><img src="icons/linkedin.png"></img></button>
+            <button class="linkedin custom-button"><img src="icons/linkedin.png"></img></button>
             <label class="button-label">LinkedIn</label>
           </a>
         </div>
       </div>
     </div>
     <div class="pic">
-      <img class="headshot" src="images/new_conrad.jpg" class="large-img">
+      <img class="headshot large-img" src="images/new_conrad.jpg">
     </div>
   <div class="text-box">
+    <a id="jessicaconrad"></a>
     <h3>Jessica Conrad</h3>
     <h4>Graduate Student</h4>
     <p>
@@ -157,7 +193,7 @@
     <div>
       <div class="button-container">
         <a href="https://jessicarconrad.github.io" target="_blank">
-          <button class="personal-page"><i class="material-icons">perm_identity</i></button>
+          <button class="personal-page custom-button"><i class="material-icons">perm_identity</i></button>
           <label class="button-label">Personal Webpage</label>
         </a>
       </div>
@@ -165,9 +201,10 @@
     </div>
     <!--Lin Li-->
     <div class="pic">
-      <img class="headshot" src="images/new_lin.jpg" class="large-img">
+      <img class="headshot large-img" src="images/new_lin.jpg">
     </div>
     <div class="text-box">
+      <a id="linli"></a>
       <h3>Lin Li</h3>
       <h4>Graduate Student</h4>
       <p>
@@ -179,13 +216,13 @@
       <div>
         <div class="button-container">
           <a href="http://dauns01.math.tulane.edu/~lli15/" target="_blank">
-            <button class="tulane"><img src="icons/tulane logo.png"></img></button>
+            <button class="tulane custom-button"><img src="icons/tulane logo.png"></img></button>
             <label class="button-label">Tulane Page</label>
           </a>
         </div>
         <div class="button-container">
           <a href="https://www.linkedin.com/in/lin-li-610904114/" target="_blank">
-            <button class="linkedin"><img src="icons/linkedin.png"></img></button>
+            <button class="linkedin custom-button"><img src="icons/linkedin.png"></img></button>
             <label class="button-label">LinkedIn</label>
           </a>
         </div>
@@ -194,9 +231,10 @@
 
     <!--You Lu-->
     <div class="pic">
-      <img class="headshot" src="images/YouLu.jpg" class="large-img">
+      <img class="headshot large-img" src="images/YouLu.jpg">
     </div>
     <div class="text-box">
+      <a id="youlu"></a>
       <h3>You (Hugh) Lu</h3>
       <h4>Graduate Student</h4>
       <p>
@@ -211,9 +249,10 @@
 
     <!--Erin Stafford-->
     <div class="pic">
-      <img class="headshot" src="images/new_erin.jpg" class="large-img">
+      <img class="headshot large-img" src="images/new_erin.jpg">
     </div>
     <div class="text-box">
+      <a id="erinstafford"></a>
       <h3>Erin Stafford</h3>
       <h4>Graduate Student</h4>
       <p>
@@ -228,13 +267,36 @@
       <div>
         <div class="button-container">
           <a href="https://mtbi.asu.edu/content/stage-structured-model-impact-buffelgrass-saguaro-cacti-and-their-nurse-trees" target="_blank">
-            <button class="research-gate"><img src="icons/microscope.png"></img></button>
+            <button class="research-gate custom-button"><img src="icons/microscope.png"></img></button>
             <label class="button-label">MTBI Research</label>
           </a>
         </div>
         <div class="button-container">
           <a href="https://www.linkedin.com/in/erin-stafford-07a674152" target="_blank">
-            <button class="linkedin"><img src="icons/linkedin.png"></img></button>
+            <button class="linkedin custom-button"><img src="icons/linkedin.png"></img></button>
+            <label class="button-label">LinkedIn</label>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--Zhe Qu-->
+    <div class="pic">
+        <img class="headshot large-img" src="images/new_zhe.jpg">
+    </div>
+    <div class="text-box">
+      <a id="zhequ"></a>
+      <h3>Zhe Qu</h3>
+      <h4>Ph.D. Candidate</h4>
+      <p>
+        I am a Ph.D. candidate in Math Department of Tulane University. My
+        current research interests are high dimensional data analysis,
+        especially integrative analysis of neuroimaging or genomic data.
+      </p>
+      <div>
+        <div class="button-container">
+          <a href="www.linkedin.com/in/zhe-qu" target="_blank">
+            <button class="linkedin custom-button"><img src="icons/linkedin.png"></img></button>
             <label class="button-label">LinkedIn</label>
           </a>
         </div>
@@ -243,9 +305,10 @@
 
     <!--Emily Meyer-->
     <div class="pic">
-      <img class="headshot" src="images/new_emily.jpg" class="large-img">
+      <img class="headshot large-img" src="images/new_emily.jpg">
     </div>
     <div class="text-box">
+      <a id="emilymeyer"></a>
       <h3>Emily Meyer</h3>
       <h4>Undergraduate</h4>
       <p>
@@ -260,7 +323,42 @@
       <div>
         <div class="button-container">
           <a href="http://www.linkedin.com/in/emily-meyer-769a95158" target="_blank">
-            <button class="linkedin"><img src="icons/linkedin.png"></img></button>
+            <button class="linkedin custom-button"><img src="icons/linkedin.png"></img></button>
+            <label class="button-label">LinkedIn</label>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--Harley Hanes-->
+    <div class="pic">
+      <img class="headshot large-img" src="images/new_harley.jpg">
+    </div>
+    <div class="text-box">
+      <a id="harleyhanes"></a>
+      <h3>Harley Hanes</h3>
+      <h4>Undergraduate</h4>
+      <p>
+        I am an undergraduate student at Tulane University majoring in
+        Mathematics and Public Health with a minor in Arabic. My research
+        interests include using mathematical models to study the transmission
+        of zoonotic infectious diseases and disease emergence. My current
+        research is on modeling the transmission of the infectious agent for
+        Chagas Disease in the New Orleans area and estimating human risk. I am
+        also an alumnus of Arizona State University’s Mathematical and
+        Theoretical Biology Institute (MTBI) where I studied reducing human
+        Lyme Disease cases by vaccinating mice near housing developments.
+      </p>
+      <div>
+        <div class="button-container">
+          <a href="https://mtbi.asu.edu/content/modeling-dynamics-and-control-lyme-disease-tick-mouse-system-subject-vaccination-mice" target="_blank">
+            <button class="research-gate custom-button"><img src="icons/microscope.png"></img></button>
+            <label class="button-label">MTBI Research</label>
+          </a>
+        </div>
+        <div class="button-container">
+          <a href="https://www.linkedin.com/in/harley-hanes-1772a712b/" target="_blank">
+            <button class="linkedin custom-button"><img src="icons/linkedin.png"></img></button>
             <label class="button-label">LinkedIn</label>
           </a>
         </div>
