@@ -49,6 +49,19 @@ h1, h3 {
   height: 16em;
   width: 16em;
 }
+/*Footer Styling */
+.custom-footer{
+  border-top: 2px solid #487C7F;
+  justify-content: center;
+  margin-top: 3em;
+}
+.my-credit{
+  padding: 0.5em;
+}
+.heart-icon{
+  padding: 0em 0.2em 0em 0.2em;
+}
+
 /* Nav and Dropdown styling*/
 .dropdown-toggle{
   padding: 0;
