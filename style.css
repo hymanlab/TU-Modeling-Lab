@@ -53,6 +53,7 @@ h1, h3 {
 .custom-footer{
   border-top: 2px solid #487C7F;
   justify-content: center;
+  margin-top: 3em;
 }
 .my-credit{
   padding: 0.5em;
