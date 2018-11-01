@@ -80,6 +80,9 @@ h1, h3 {
 .btn-group{
   padding: 0rem 0.5rem 0rem 0.5rem;
 }
+.reg-nav{
+  margin-top: 0.125em;
+}
 
 /*Button Styling*/
 .custom-button {
