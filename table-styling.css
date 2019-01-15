@@ -1,0 +1,37 @@
+/* Styling for table on "Contact Us" page. Can not use table rows and columns
+because they behave poorly on small screen sizes.*/
+
+
+/*@media (max-width: 500px){*/
+  /*Defines behavior for mobile view.*/
+  /*.custom-row{
+    max-with: 95vw;
+  },
+  .Name, .Position, .Email{
+    display: block;
+  }
+}*/
+@media (max-width:500px){
+  .Name, .Position, .Email{
+    display: block;
+    padding: 5px 5px 5px 5px;
+  },
+  .custom-row{
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width:501px){
+  .Name, .Position, .Email{
+    display: inline;
+    width: 30vw;
+  }
+}
+
+/*@media (min-width: 501px){*/
+  /*Defines behavior on larger screens.*/
+  /*.custom-row{
+    width: 95vw;
+  },
+
+}*/
