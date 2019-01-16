@@ -8,14 +8,14 @@ because they behave poorly on small screen sizes.*/
     max-width: 95vw;
     margin: auto;
   },
-  .Name, .Position, .Email{
+  .grid-container>div{
     display: block;
   }
 }
 
 
 @media (max-width:500px){
-  .Name, .Position, .Email{
+  .grid-container>div{
     display: block;
     padding: 5px 5px 5px 5px;
   }
