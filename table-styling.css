@@ -25,13 +25,22 @@ because they behave poorly on small screen sizes.*/
 }
 
 @media (min-width:501px){
-  .Name, .Position, .Email{
+  .grid-container>div{
     display:inline;
     text-align: left;
   }
   .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
+  }
+  .grid-container>div:nth-of-type(6n+0){
+    background-color: lightgrey;
+  }
+  .grid-container>div:nth-of-type(6n-1){
+    background-color: lightgrey;
+  }
+  .grid-container>div:nth-of-type(6n-2){
+    background-color: lightgrey;
   }
 
 }
