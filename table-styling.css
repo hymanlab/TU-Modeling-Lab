@@ -3,13 +3,13 @@ because they behave poorly on small screen sizes.*/
 
 /* Zebra stripes for table */
 .grid-container>div:nth-of-type(6n+0){
-  background-color: lightgrey;
+  background-color: #E0E0E0;
 }
 .grid-container>div:nth-of-type(6n-1){
-  background-color: lightgrey;
+  background-color: #E0E0E0;
 }
 .grid-container>div:nth-of-type(6n-2){
-  background-color: lightgrey;
+  background-color: #E0E0E0;
 }
 
 @media (max-width: 500px){
@@ -17,16 +17,34 @@ because they behave poorly on small screen sizes.*/
   .grid-container{
     max-width: 95vw;
     margin: auto;
-  },
-  .grid-container>div{
-    display: block;
-    padding: 1em 1em 1em 1em;
-  }
-  .grid-container{
     margin-bottom: 10px;
   }
+  .grid-container>div{
+    display: block;
+    /*padding: 1em 1em 1em 1em;*/
+  }
+  /* Email Cells*/
+  .grid-container>div:nth-of-type(3n){
+    padding: 0.1em 0.4em 1em 0.4em;
+  }
+  /* Position Cells*/
+  .grid-container>div:nth-of-type(3n-1){
+    padding: 0.1em 0.4em 0.1em 0.4em;
+  }
+  /* Name Cells */
+  .grid-container>div:nth-of-type(3n-2){
+    padding: 1em 0.4em 0.1em 0.4em;
+  }
+  /* Note: When using the nth-of-type selector, use (3n-1) and not (3n+1).
+  This lets the selector count backwards and select the first cell.
+  */
+  .custom-table-header{
+    display: none !important;
+  }
+
 }
 
+   /* Desktop and tablet view */
 @media (min-width:501px){
   .grid-container>div{
     display:inline;
@@ -37,4 +55,11 @@ because they behave poorly on small screen sizes.*/
     display: grid;
     grid-template-columns: auto auto auto;
   }
+
+  /* Table Header */
+ .custom-table-header{
+  font-weight: bold;
+  border-bottom: 0.5em solid grey;
+ }
+
 }
