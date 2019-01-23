@@ -42,7 +42,7 @@ h1, h2, h3 {
   border-radius: 1em;
   height: 20em;
   width: 20em;
-  display: block;
+  display: inline-block;
   overflow: hidden;
   box-shadow: 0.1em 0.1em #274345;
 }
