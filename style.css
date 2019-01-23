@@ -30,13 +30,12 @@ h1, h2, h3 {
   border-radius: 1em;
   height: 16em;
   width: 16em;
-  display: block;
+  display: inline-block;
   overflow: hidden;
   box-shadow: 0.1em 0.1em #274345;
 }
 .pic-container{
-  width: 100%;
-  <!-- adding a pic-container to align picture on mobile view. -->
+  text-align: center;
 }
 .index-pic {
   border: 0.3em solid rgba(72, 124, 127, 0.9);
