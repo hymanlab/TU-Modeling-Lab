@@ -76,8 +76,8 @@
         </button>
         <div class="dropdown-menu" aria-labelledby="buttonMenu1">
           <!-- Alphabetical order by last name -->
-          <a class="dropdown-item" href="#jessicaconrad">Jessica Conrad</a>
           <a class="dropdown-item" href="#liguan">Li Guan</a>
+          <a class="dropdown-item" href="#christiangeneus">Christian Geneus</a>
           <a class="dropdown-item" href="#harleyhanes">Harley Hanes</a>
           <a class="dropdown-item" href="#machyman">James Hyman</a>
           <a class="dropdown-item" href="#linli">Lin Li</a>
@@ -90,12 +90,14 @@
         </div>
       </div>
     <div class="people">
+      <div class="pic-container" id="machyman">
         <div class="pic">
           <img class="headshot" src="images/new_machyman.jpg">
         </div>
+      </div>
 
       <div class="text-box">
-        <a id="machyman"></a>
+        <!-- James "Mac" Hyman -->
         <h3>Mac Hyman </h3>
         <h4> Principal Investigator </h4>
         <p>
@@ -139,13 +141,15 @@
         </div>
 
 
-    <div class="pic">
-        <img class="headshot" src="images/new_zhuolin.jpg">
-    </div>
-    <!--</div>-->
+
     <!--Zhuolin Qu-->
+    <div class="pic-container" id="zhuolinqu">
+      <div class="pic">
+          <img class="headshot" src="images/new_zhuolin.jpg">
+      </div>
+    </div>
+
     <div class="text-box">
-      <a id="zhuolinqu"></a>
       <h3>Zhuolin Qu</h3>
       <h4>Post-Doctoral Researcher</h4>
       <p>
@@ -185,11 +189,12 @@
     </div>
 
   <!-- Wu Tong -->
-  <div class="pic">
-    <img class="headshot large-img" src="images/new_wu.jpg">
+  <div class="pic-container" id="wutong">
+    <div class="pic">
+      <img class="headshot large-img" src="images/new_wu.jpg">
+    </div>
   </div>
   <div class="text-box">
-    <a id="wutong"></a>
     <h3>Wu Tong</h3>
     <h4>Post-Doctoral Researcher</h4>
     <p>
@@ -204,12 +209,46 @@
     </div>
   </div>
 
+  <!-- Christian Geneus -->
+  <div class="pic-container" id="christiangeneus">
+    <div class="pic">
+      <img class="headshot large-img" src="images/new_christian.jpg">
+    </div>
+  </div>
+  <div class="text-box">
+    <a ></a>
+    <h3>Christian Geneus</h3>
+    <h4>Graduate Student, Ph.D. Candidate</h4>
+    <p>
+      My current research under the supervision of both Dr. Hyman and Qu places
+      emphasis on the use of mathematics and graph/network theory to understand
+      stochastic processes such as the spread of epidemics. Specifically, we
+      determine at what point an epidemic model such as an SI, SIR, and SIS
+      becomes predictable. In other words, at what point does a deterministic model
+      dictate the behavior of the epidemic? Other areas of research interest
+      include using uncertainty quantification and parameter estimation for
+      network modeling and fitting data.
+    </p>
+    <div>
+
+      <div class="button-container">
+        <a href="https://www.researchgate.net/profile/Christian_Geneus" target="_blank">
+          <button class="research-gate custom-button"><img src="icons/microscope.png"></img></button>
+          <label class="button-label">Research Gate</label>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
     <!-- Li Guan -->
+    <div class="pic-container" id="liguan">
     <div class="pic">
       <img class="headshot large-img" src="images/new_liguan.jpg">
     </div>
+    </div>
     <div class="text-box">
-      <a id="liguan"></a>
       <h3>Li Guan</h3>
       <h4>Graduate Student</h4>
       <p>
@@ -231,12 +270,14 @@
         </div>
       </div>
     </div>
+
     <!--Lin Li-->
-    <div class="pic">
-      <img class="headshot large-img" src="images/new_lin.jpg">
+    <div class="pic-container" id="linli">
+      <div class="pic">
+        <img class="headshot large-img" src="images/new_lin.jpg">
+      </div>
     </div>
     <div class="text-box">
-      <a id="linli"></a>
       <h3>Lin Li</h3>
       <h4>Graduate Student</h4>
       <p>
@@ -262,11 +303,12 @@
     </div>
 
     <!--You Lu-->
-    <div class="pic">
-      <img class="headshot large-img" src="images/YouLu.jpg">
+    <div class="pic-container" id="youlu">
+      <div class="pic">
+        <img class="headshot large-img" src="images/YouLu.jpg">
+      </div>
     </div>
     <div class="text-box">
-      <a id="youlu"></a>
       <h3>You (Hugh) Lu</h3>
       <h4>Graduate Student</h4>
       <p>
@@ -280,11 +322,12 @@
     </div>
 
     <!--Erin Stafford-->
-    <div class="pic">
-      <img class="headshot large-img" src="images/new_erin.jpg">
+    <div class="pic-container" id="erinstafford">
+      <div class="pic">
+        <img class="headshot large-img" src="images/new_erin.jpg">
+      </div>
     </div>
     <div class="text-box">
-      <a id="erinstafford"></a>
       <h3>Erin Stafford</h3>
       <h4>Graduate Student</h4>
       <p>
@@ -313,11 +356,12 @@
     </div>
 
     <!--Zhe Qu-->
-    <div class="pic">
+    <div class="pic-container" id="zhequ">
+      <div class="pic">
         <img class="headshot large-img" src="images/zhequ.jpg">
+      </div>
     </div>
     <div class="text-box">
-      <a id="zhequ"></a>
       <h3>Zhe Qu</h3>
       <h4>Ph.D. Candidate</h4>
       <p>
@@ -336,11 +380,12 @@
     </div>
 
     <!--Emily Meyer-->
-    <div class="pic">
-      <img class="headshot large-img" src="images/new_emily.jpg">
+    <div class="pic-container" id="emilymeyer">
+      <div class="pic">
+        <img class="headshot large-img" src="images/new_emily.jpg">
+      </div>
     </div>
     <div class="text-box">
-      <a id="emilymeyer"></a>
       <h3>Emily Meyer</h3>
       <h4>Undergraduate</h4>
       <p>
@@ -363,11 +408,12 @@
     </div>
 
     <!--Harley Hanes-->
-    <div class="pic">
-      <img class="headshot large-img" src="images/new_harley.jpg">
+    <div class="pic-container" id="harleyhanes">
+      <div class="pic">
+        <img class="headshot large-img" src="images/new_harley.jpg">
+      </div>
     </div>
     <div class="text-box">
-      <a id="harleyhanes"></a>
       <h3>Harley Hanes</h3>
       <h4>Undergraduate</h4>
       <p>
