@@ -12,6 +12,11 @@ because they behave poorly on small screen sizes.*/
   background-color: #E0E0E0;
 }
 
+/* Link styling */
+.grid-container>div>a{
+  color: #212529;
+}
+
 @media (max-width: 500px){
   /*Defines behavior for mobile view.*/
   .grid-container{
