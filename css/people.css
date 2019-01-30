@@ -1,0 +1,72 @@
+.headshot{
+  height: 16em;
+  width: 16em;
+}
+
+/* Nav and Dropdown styling*/
+.dropdown-toggle{
+  padding: 0;
+  font-weight: bold;
+}
+.dropdown-toggle:hover{
+  background-color: transparent;
+}
+.btn-group{
+  padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+/*Button Styling*/
+.custom-button {
+  border-radius: 50%;
+  border: none;
+  height: 5em;
+  width: 5em;
+  margin: 1em 2em 0.5em 2em;
+}
+.custom-button:hover{
+  box-shadow: 0.1em 0.1em #1F3A52;
+  cursor: pointer;
+}
+.google-scholar{
+  background-color: #5F78FF;
+}
+.google-scholar:hover{
+  background-color: #5FB4FF;
+}
+
+.tulane{
+  background-color: #036E44;
+}
+.tulane:hover{
+  background-color: #04A164;
+}
+.personal-page{
+  background-color: #FF84A0;
+}
+.personal-page:hover{
+  background-color: #E084A0;
+}
+.research-gate{
+  background-color: #D90013;
+}
+.research-gate:hover{
+  background-color: #FF0016;
+}
+.linkedin{
+  background-color: #007AB3;
+}
+.linkedin:hover{
+  background-color: #00AEFF;
+}
+.material-icons{
+  font-size: 36px;
+}
+.button-container{
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+.button-label{
+  display:block;
+  color: black;
+}

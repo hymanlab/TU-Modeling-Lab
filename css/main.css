@@ -1,0 +1,67 @@
+/* Elements */
+body {
+  background-image: url("./images/background1.jpg");
+  background-color: white;
+}
+h1, h2, h3 {
+  border-bottom: 2px solid #487C7F;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+/* Classes */
+
+.custom-container {
+  background-color: #FFFDFF;
+  border-left: solid 2vw rgba(72, 124, 127, 0.9);
+  border-right: solid 2vw rgba(72, 124, 127, 0.9);
+  min-height: 95vh;
+}
+.pic {
+  border: 0.3em solid rgba(72, 124, 127, 0.9);
+  border-radius: 1em;
+  height: 16em;
+  width: 16em;
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 0.1em 0.1em #274345;
+}
+.pic-container{
+  text-align: center;
+}
+.large-img {
+  max-width: 20em;
+}
+.small-line {
+  border-bottom: 1px solid #487C7F;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+/*Nav Styling*/
+.nav-item{
+  font-size: 0.9em;
+  font-weight: normal;
+  vertical-align: middle;
+}
+.reg-nav{
+  margin-top: 0.125em;
+}
+
+/*Footer Styling */
+.custom-footer{
+  border-top: 2px solid #487C7F;
+  justify-content: center;
+  margin-top: 3em;
+}
+.my-credit{
+  padding: 0.5em;
+}
+.heart-icon{
+  padding: 0em 0.2em 0em 0.2em;
+}
+
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
