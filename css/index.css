@@ -1,0 +1,9 @@
+.index-pic {
+  border: 0.3em solid rgba(72, 124, 127, 0.9);
+  border-radius: 1em;
+  height: 20em;
+  width: 20em;
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 0.1em 0.1em #274345;
+}

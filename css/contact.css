@@ -26,7 +26,6 @@ because they behave poorly on small screen sizes.*/
   }
   .grid-container>div{
     display: block;
-    /*padding: 1em 1em 1em 1em;*/
   }
   /* Email Cells*/
   .grid-container>div:nth-of-type(3n){
