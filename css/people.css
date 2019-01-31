@@ -58,6 +58,14 @@
 .linkedin:hover{
   background-color: #00AEFF;
 }
+
+.github{
+  background-color: #1FAB59;
+}
+.github:hover{
+  background-color: #26CF6C;
+}
+
 .material-icons{
   font-size: 36px;
 }
