@@ -25,6 +25,8 @@ h1, h2, h3 {
   display: inline-block;
   overflow: hidden;
   box-shadow: 0.1em 0.1em #274345;
+
+
 }
 .pic-container{
   text-align: center;
@@ -40,12 +42,20 @@ h1, h2, h3 {
 
 /*Nav Styling*/
 .nav-item{
-  font-size: 0.9em;
+  font-size: 1.2em;
   font-weight: normal;
   vertical-align: middle;
 }
-.reg-nav{
-  margin-top: 0.125em;
+.nav-link{
+  color: #FFFDFF !important;
+  z-index: 1;
+
+}
+.custom-nav{
+  background-color: rgba(72, 124, 127, 0.9);
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
 }
 
 /*Footer Styling */
