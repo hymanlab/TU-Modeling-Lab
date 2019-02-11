@@ -1,3 +1,20 @@
+/* Responsive styling for navbar*/
+@media (max-width: 719px){
+  .custom-nav-text{
+    display: none;
+  }
+  .nav-item{
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (min-width: 720px){
+  .custom-nav-text{
+    display: inline;
+    font-size: 1.2em;
+  }
+}
+
 /* Elements */
 body {
   background-image: url("../images/background1.jpg");
@@ -7,6 +24,10 @@ h1, h2, h3 {
   border-bottom: 2px solid #487C7F;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
+}
+
+h1{
+  padding-top: 2em;
 }
 
 /* Classes */
@@ -25,6 +46,8 @@ h1, h2, h3 {
   display: inline-block;
   overflow: hidden;
   box-shadow: 0.1em 0.1em #274345;
+
+
 }
 .pic-container{
   text-align: center;
@@ -40,12 +63,19 @@ h1, h2, h3 {
 
 /*Nav Styling*/
 .nav-item{
-  font-size: 0.9em;
   font-weight: normal;
   vertical-align: middle;
 }
-.reg-nav{
-  margin-top: 0.125em;
+.nav-link{
+  color: #FFFDFF !important;
+  z-index: 1;
+
+}
+.custom-nav{
+  background-color: rgba(72, 124, 127, 0.9);
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
 }
 
 /*Footer Styling */
