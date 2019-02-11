@@ -26,6 +26,10 @@ h1, h2, h3 {
   padding-top: 0.5em;
 }
 
+h1{
+  padding-top: 2em;
+}
+
 /* Classes */
 
 .custom-container {
