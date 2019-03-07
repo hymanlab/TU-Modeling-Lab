@@ -75,7 +75,7 @@ h1{
   position: fixed;
   width: 100vw;
   z-index: 1;
-  background-image: linear-gradient(to top, rgba(72, 124, 127, 0), rgba(72, 124, 127, 1));
+  background-image: linear-gradient(to top, rgba(72, 124, 127, 0.6), rgba(72, 124, 127, 1));
 }
 
 
