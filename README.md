@@ -1,4 +1,4 @@
-# Website for Hyman Lab
+# Website for Tulane Mathematical Modeling and Analysis Lab
 
   The **Tulane Mathematical Modeling and Analysis Lab** is focused on constructing new models for complex systems, analyzing the 
 mathematical structure of these models, and quantifying the uncertainty in how well a model approximates the original physical 
