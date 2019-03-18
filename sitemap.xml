@@ -5,26 +5,26 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
   http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://hymanlab.github.io/index.html</loc>
-    <lastmod>2019-01-30</lastmod>
+    <loc>https://hymanlab.github.io/TU-Modeling-Lab/index.html</loc>
+    <lastmod>2019-03-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hymanlab.github.io/people.html</loc>
-    <lastmod>2019-01-30</lastmod>
+    <loc>https://hymanlab.github.io/TU-Modeling-Lab/people.html</loc>
+    <lastmod>2019-03-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://hymanlab.github.io/previous.</loc>
-    <lastmod>2019-01-30</lastmod>
+    <loc>https://hymanlab.github.io/TU-Modeling-Lab/previous.html</loc>
+    <lastmod>2019-03-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hymanlab.github.io/contact.html</loc>
-    <lastmod>2019-01-30</lastmod>
+    <loc>https://hymanlab.github.io/TU-Modeling-Lab/contact.html</loc>
+    <lastmod>2019-03-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
