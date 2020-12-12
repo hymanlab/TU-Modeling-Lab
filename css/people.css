@@ -1,6 +1,14 @@
 .headshot{
   height: 16em;
   width: 16em;
+  border: 10px solid rgba(72, 124, 127, 0.9);
+  border-radius: 1em;
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 0.1em 0.1em #274345;
+  padding: 0px;
+  margin: 0px;
+  background: rgba(72, 124, 127, 0.9);
 }
 /* Anchor offset so that navbar does not cover profile
 photos when jumped to. */

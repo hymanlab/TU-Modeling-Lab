@@ -39,15 +39,12 @@ h1{
   min-height: 95vh;
 }
 .pic {
-  border: 0.3em solid rgba(72, 124, 127, 0.9);
+  background: rgba(72, 124, 127, 0.9);
   border-radius: 1em;
   height: 16em;
   width: 16em;
-  display: inline-block;
-  overflow: hidden;
-  box-shadow: 0.1em 0.1em #274345;
-
-
+  align-self: center;
+  display: inline;
 }
 .pic-container{
   text-align: center;
