@@ -41,8 +41,10 @@ h1{
 .pic {
   background: rgba(72, 124, 127, 0.9);
   border-radius: 1em;
-
-
+  height: 16em;
+  width: 16em;
+  align-self: center;
+  display: inline;
 }
 .pic-container{
   text-align: center;
